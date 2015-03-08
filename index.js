@@ -20,10 +20,10 @@ module.exports = {
     },
 
     div: function (valueO) {
-        return this.operationWrap(divOp)(valueO);
+        return this.operation(divOp)(valueO);
     },
     mul: function (valueO) {
-        return this.operationWrap(mulOp)(valueO);
+        return this.operation(mulOp)(valueO);
     }
 
 };
