@@ -1,0 +1,20 @@
+{
+  "name": "math",
+  "description": "Math functions for fantasy-option",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fantasy-fkit/math.git"
+  },
+  "keywords": [
+    "math",
+    "fantasy",
+    "fkit"
+  ],
+  "dependencies": {
+    "core.lambda": "~1.0.0"
+  },
+  "author": "Klim Malgin",
+  "license": "MIT",
+  "main": "index.js",
+  "version": "0.0.1"
+}
