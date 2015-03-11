@@ -13,7 +13,7 @@ var mulOp = curry(2, function (meV, valueV) { return meV * valueV; });
 module.exports = {
 
     add: function (valueO) {
-        return this.operation(addOp)(valueO));
+        return this.operation(addOp)(valueO);
     },
     sub: function (valueO) {
         return this.operation(subOp)(valueO);
